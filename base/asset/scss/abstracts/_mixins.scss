@@ -1,0 +1,65 @@
+
+@mixin clear {
+    &::after{
+        content:"";
+        clear:both;
+        display: block;
+    }
+}
+
+@mixin spBg($x,$y){
+    background-image: url(../images/sp_bg.png);
+    background-repeat: no-repeat;
+    background-size: 300px auto; 
+    background-position: $x $y;
+ }
+
+ @mixin botton($x,$y){
+   background-image: url(../images/botton.png);
+   background-repeat: no-repeat;
+   background-size: 300px auto; 
+   background-position: $x $y;
+}
+
+ @mixin seBg($x,$y){
+   background-image: url(../images/se_bg.png);
+   background-repeat: no-repeat;
+   background-size: 300px auto; 
+   background-position: $x $y;
+}
+
+ @mixin sbBg($x,$y){
+    background-image: url(../images/sb_bg.png);
+    background-repeat: no-repeat;
+    background-size: 180px auto; 
+    background-position: $x $y;
+ }
+
+ @mixin spService($x,$y){
+    background-image: url(../images/sp_service.png);
+    background-repeat: no-repeat;
+    background-size: 1140px auto; 
+    background-position: $x $y;
+ }
+
+ @mixin poSns($x,$y){
+    background-image: url(../images/icon/fo-sns.png);
+    background-repeat: no-repeat;
+    background-size: 175px auto; 
+    background-position: $x $y;
+ }
+
+ @mixin boSns($x,$y){
+   background-image: url(../images/icon/bo-sns.png);
+   background-repeat: no-repeat;
+   background-size: 280px auto; 
+   background-position: $x $y;
+}
+
+@mixin vsIcon($x,$y){
+   background-image: url(../images/icon/vs-icon.png);
+   background-repeat: no-repeat;
+   background-size: 300px auto; 
+   background-position: $x $y;
+}
+
